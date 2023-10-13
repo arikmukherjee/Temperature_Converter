@@ -15,7 +15,7 @@ elif(choice=='C' or choice=='c'):
   print("---Fehrenheit to Celcius---")
   print("Enter fehrenheit temperature")
   fehrenheit=float(input())
-  celcius=((fehrenheit-32)*5)
+  celcius=((fehrenheit-32)*5)/9
   print("Fehrenheit temperature is = ",celcius)
 elif(choice=='K' or choice=='k'):
   print("---Celcius to Kelvin---")
