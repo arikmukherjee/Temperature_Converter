@@ -22,7 +22,7 @@ elif(choice=='K' or choice=='k'):
   print("Enter celcius temperature")
   celcius=float(input())
   kelvin=celcius+273.15
-  print("Kelvin temperature is = ",kelvin)
+  print(kelvin,"K")
 else:
   print("Invalid input")
   print("Press C/c to get celcius temperature")
